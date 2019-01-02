@@ -1,0 +1,9 @@
+C:\Project\SeleniumConsole\SeleniumFirst\SeleninumTests\bin\Debug\netstandard2.0\SeleninumTests.deps.json
+C:\Project\SeleniumConsole\SeleniumFirst\SeleninumTests\bin\Debug\netstandard2.0\SeleninumTests.dll
+C:\Project\SeleniumConsole\SeleniumFirst\SeleninumTests\obj\Debug\netstandard2.0\SeleninumTests.csprojAssemblyReference.cache
+C:\Project\SeleniumConsole\SeleniumFirst\SeleninumTests\obj\Debug\netstandard2.0\SeleninumTests.csproj.CoreCompileInputs.cache
+C:\Project\SeleniumConsole\SeleniumFirst\SeleninumTests\obj\Debug\netstandard2.0\SeleninumTests.AssemblyInfoInputs.cache
+C:\Project\SeleniumConsole\SeleniumFirst\SeleninumTests\obj\Debug\netstandard2.0\SeleninumTests.AssemblyInfo.cs
+C:\Project\SeleniumConsole\SeleniumFirst\SeleninumTests\bin\Debug\netstandard2.0\SeleninumTests.pdb
+C:\Project\SeleniumConsole\SeleniumFirst\SeleninumTests\obj\Debug\netstandard2.0\SeleninumTests.dll
+C:\Project\SeleniumConsole\SeleniumFirst\SeleninumTests\obj\Debug\netstandard2.0\SeleninumTests.pdb

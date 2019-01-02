@@ -1,0 +1,10 @@
+C:\Project\SeleniumConsole\SeleniumFirst\SeleniumFirst\bin\Release\netcoreapp2.2\SeleniumFirst.deps.json
+C:\Project\SeleniumConsole\SeleniumFirst\SeleniumFirst\bin\Release\netcoreapp2.2\SeleniumFirst.runtimeconfig.json
+C:\Project\SeleniumConsole\SeleniumFirst\SeleniumFirst\bin\Release\netcoreapp2.2\SeleniumFirst.runtimeconfig.dev.json
+C:\Project\SeleniumConsole\SeleniumFirst\SeleniumFirst\bin\Release\netcoreapp2.2\SeleniumFirst.dll
+C:\Project\SeleniumConsole\SeleniumFirst\SeleniumFirst\bin\Release\netcoreapp2.2\SeleniumFirst.pdb
+C:\Project\SeleniumConsole\SeleniumFirst\SeleniumFirst\obj\Release\netcoreapp2.2\SeleniumFirst.csproj.CoreCompileInputs.cache
+C:\Project\SeleniumConsole\SeleniumFirst\SeleniumFirst\obj\Release\netcoreapp2.2\SeleniumFirst.AssemblyInfoInputs.cache
+C:\Project\SeleniumConsole\SeleniumFirst\SeleniumFirst\obj\Release\netcoreapp2.2\SeleniumFirst.AssemblyInfo.cs
+C:\Project\SeleniumConsole\SeleniumFirst\SeleniumFirst\obj\Release\netcoreapp2.2\SeleniumFirst.dll
+C:\Project\SeleniumConsole\SeleniumFirst\SeleniumFirst\obj\Release\netcoreapp2.2\SeleniumFirst.pdb
