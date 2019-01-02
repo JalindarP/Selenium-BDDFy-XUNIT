@@ -1,34 +1,32 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
 using Shouldly;
-using Xunit;
-using TestStack.BDDfy;
 using System.IO;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using NUnit.Framework;
+using Xunit;
+using TestStack.BDDfy;
 
 namespace SeleniumFirst
 {
     public class SeleniumTests
     {
-        void GivenIHaveNotUsedBDDfyBefore()
+        public void GivenIHaveNotUsedBDDfyBefore()
         {
         }
 
-        void WhenIAmIntroducedToTheFramework()
+        public void WhenIAmIntroducedToTheFramework()
         {
         }
 
-        void ThenILikeItAndStartUsingIt()
+        public void ThenILikeItAndStartUsingIt()
         {
         }
 
-        [Test]
+        [Fact]
         public void ShouldBeAbleToBDDfyMyTestsVeryEasily()
         {
-            this.BDDfy();
+            this.Given(x => x.GivenIHaveNotUsedBDDfyBefore()).When(x => x.WhenIAmIntroducedToTheFramework()).Then(x => x.ThenILikeItAndStartUsingIt()).BDDfy();
+           
         }
 
         //Given When Then

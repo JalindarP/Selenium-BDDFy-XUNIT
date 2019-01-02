@@ -79,21 +79,6 @@
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
         }
       },
-      "NUnit/3.11.0": {
-        "type": "package",
-        "dependencies": {
-          "NETStandard.Library": "2.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/nunit.framework.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/nunit.framework.dll": {}
-        },
-        "build": {
-          "build/NUnit.props": {}
-        }
-      },
       "Selenium.Chrome.WebDriver/2.45.0": {
         "type": "package",
         "build": {
@@ -873,6 +858,20 @@
           "lib/netstandard1.5/TestStack.BDDfy.dll": {}
         }
       },
+      "TestStack.BDDfy.Xunit/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "TestStack.BDDfy": "4.3.2",
+          "xunit": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard1.5/TestStack.BDDfy.Xunit.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.5/TestStack.BDDfy.Xunit.dll": {}
+        }
+      },
       "xunit/2.4.1": {
         "type": "package",
         "dependencies": {
@@ -1192,40 +1191,6 @@
         "newtonsoft.json.10.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
-      ]
-    },
-    "NUnit/3.11.0": {
-      "sha512": "zecrYxUA5p5w8AZ2bvbBbiUIcrQnZAVPrziNMSWMdcOi0D2Oe7yKUNivWPIQMcUwQDHmWtS/ijnD48ubU/eHZQ==",
-      "type": "package",
-      "path": "nunit/3.11.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "CHANGES.md",
-        "LICENSE.txt",
-        "NOTICES.txt",
-        "build/NUnit.props",
-        "lib/net20/NUnit.System.Linq.dll",
-        "lib/net20/nunit.framework.dll",
-        "lib/net20/nunit.framework.pdb",
-        "lib/net20/nunit.framework.xml",
-        "lib/net35/nunit.framework.dll",
-        "lib/net35/nunit.framework.pdb",
-        "lib/net35/nunit.framework.xml",
-        "lib/net40/nunit.framework.dll",
-        "lib/net40/nunit.framework.pdb",
-        "lib/net40/nunit.framework.xml",
-        "lib/net45/nunit.framework.dll",
-        "lib/net45/nunit.framework.pdb",
-        "lib/net45/nunit.framework.xml",
-        "lib/netstandard1.4/nunit.framework.dll",
-        "lib/netstandard1.4/nunit.framework.pdb",
-        "lib/netstandard1.4/nunit.framework.xml",
-        "lib/netstandard2.0/nunit.framework.dll",
-        "lib/netstandard2.0/nunit.framework.pdb",
-        "lib/netstandard2.0/nunit.framework.xml",
-        "nunit.3.11.0.nupkg.sha512",
-        "nunit.nuspec"
       ]
     },
     "Selenium.Chrome.WebDriver/2.45.0": {
@@ -3928,6 +3893,19 @@
         "teststack.bddfy.nuspec"
       ]
     },
+    "TestStack.BDDfy.Xunit/1.0.0": {
+      "sha512": "Xwti5KEkoh1FXWab0NgH+FQTGyAfxm732oTxWK5ngYi1Mf3i2YFuhcW8eBVuiqCWTSPp/ya3/HDwrI/2VbWShw==",
+      "type": "package",
+      "path": "teststack.bddfy.xunit/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/TestStack.BDDfy.Xunit.dll",
+        "lib/netstandard1.5/TestStack.BDDfy.Xunit.dll",
+        "teststack.bddfy.xunit.1.0.0.nupkg.sha512",
+        "teststack.bddfy.xunit.nuspec"
+      ]
+    },
     "xunit/2.4.1": {
       "sha512": "OwBhpez9SRZvEjqic3WVbACu2wsi9u5qi+YpzVg6BTL3R25R/6ytM4UkUTnx+dSZDJ3IUPx+99CX/YXnxrQAWA==",
       "type": "package",
@@ -4036,11 +4014,10 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
-      "NUnit >= 3.11.0",
       "Selenium.Chrome.WebDriver >= 2.45.0",
       "Selenium.WebDriver >= 3.13.1",
       "Shouldly >= 3.0.2",
-      "TestStack.BDDfy >= 4.3.2",
+      "TestStack.BDDfy.Xunit >= 1.0.0",
       "xunit >= 2.4.1"
     ]
   },
@@ -4093,10 +4070,6 @@
             "version": "[2.0.3, )",
             "autoReferenced": true
           },
-          "NUnit": {
-            "target": "Package",
-            "version": "[3.11.0, )"
-          },
           "Selenium.Chrome.WebDriver": {
             "target": "Package",
             "version": "[2.45.0, )"
@@ -4109,9 +4082,9 @@
             "target": "Package",
             "version": "[3.0.2, )"
           },
-          "TestStack.BDDfy": {
+          "TestStack.BDDfy.Xunit": {
             "target": "Package",
-            "version": "[4.3.2, )"
+            "version": "[1.0.0, )"
           },
           "xunit": {
             "target": "Package",
